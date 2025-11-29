@@ -49,5 +49,4 @@ jobs:
         name: awesome-calculator
         path: src/dist    
     - name: Install package
-      run: |
-        cat awesome-calculator
+      uses: actions/download-artifact@v4
