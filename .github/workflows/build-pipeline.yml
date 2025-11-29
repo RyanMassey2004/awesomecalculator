@@ -48,5 +48,7 @@ jobs:
       with:
         name: awesome-calculator
         path: src/dist    
-
+    - name: Install package
+      run: |
+        pip install -i https://test.pypi.org/simple/ ryanm-awesomecalculator==1.0.0
 
